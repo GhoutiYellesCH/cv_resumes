@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV GHOUTI YELLES CHAOUCHE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-blue: #1b5394; /* Color matching the PDF headers */
+            --text-main: #333333;
+            --text-light: #555555;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            color: var(--text-main);
+            line-height: 1.5;
+            font-size: 10.5pt;
+            background-color: #f5f5f5;
+        }
+
+        .resume-container {
+            max-width: 8.5in;
+            margin: 2rem auto;
+            background: #ffffff;
+            padding: 0.8in;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* HEADER */
+        header {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        h1 {
+            font-size: 24pt;
+            font-weight: 700;
+            color: var(--primary-blue);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.2rem;
+        }
+
+        .subtitle {
+            font-size: 11pt;
+            color: var(--text-main);
+            margin-bottom: 0.4rem;
+        }
+
+        .contact-info {
+            font-size: 9.5pt;
+            color: var(--text-light);
+            margin-bottom: 0.8rem;
+        }
+
+        .contact-info a {
+            color: var(--primary-blue);
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .header-line {
+            height: 1px;
+            background-color: var(--primary-blue);
+            width: 100%;
+            margin-top: 0.5rem;
+        }
+
+        /* SECTIONS */
+        section {
+            margin-bottom: 1.25rem;
+        }
+
+        h2 {
+            font-size: 11pt;
+            font-weight: 700;
+            color: var(--primary-blue);
+            text-transform: uppercase;
+            border-bottom: 1px solid var(--primary-blue);
+            padding-bottom: 0.2rem;
+            margin-bottom: 0.75rem;
+            margin-top: 1rem;
+        }
+
+        p {
+            margin-bottom: 0.75rem;
+            text-align: justify;
+        }
+
+        /* FLEX CONTAINERS FOR DATES */
+        .flex-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 0.15rem;
+        }
+
+        .title-group {
+            font-size: 10.5pt;
+        }
+
+        .job-title {
+            font-weight: 700;
+            color: var(--text-main);
+        }
+        
+        .company-name {
+            color: var(--text-light);
+        }
+
+        .date {
+            font-style: italic;
+            color: var(--text-light);
+            font-size: 9.5pt;
+        }
+
+        /* LISTS */
+        ul {
+            list-style-type: disc;
+            padding-left: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+
+        ul li {
+            margin-bottom: 0.35rem;
+            text-align: justify;
+        }
+        
+        .category-title {
+            font-weight: 700;
+            margin-top: 0.75rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .university {
+            color: var(--text-light);
+            margin-bottom: 0.75rem;
+        }
+
+        /* PRINT STYLES */
+        @media print {
+            body {
+                background: #ffffff;
+                margin: 0;
+                padding: 0;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            .resume-container {
+                margin: 0;
+                padding: 0.4in 0.5in;
+                box-shadow: none;
+                max-width: 100%;
+            }
+            @page {
+                margin: 0;
+                size: letter;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="resume-container">
+    <header>
+        <h1>GHOUTI YELLES CHAOUCHE</h1>
+        <div class="subtitle">Ingénieur en Cybersécurité | Spécialiste Purple Team</div>
+        <div class="contact-info">
+            Tlemcen, Algérie &nbsp;|&nbsp; 0549944546 &nbsp;|&nbsp; ghouti.yelles@engineer.com<br>
+            <a href="https://linkedin.com/in/ghouti-yelles-chaouche">linkedin.com/in/ghouti-yelles-chaouche</a> &nbsp;|&nbsp; <a href="https://github.com/GhoutiYellesCH">github.com/GhoutiYellesCH</a>
+        </div>
+        <div class="header-line"></div>
+    </header>
+
+    <section>
+        <h2>PROFIL</h2>
+        <p>Ingénieur en cybersécurité polyvalent avec une forte orientation "Purple Team", faisant le pont entre la sécurité offensive (Red Team) et les opérations défensives (Blue Team) en utilisant le framework Cyber Kill Chain. Expérience pratique dans la conception de malwares personnalisés, de serveurs C2 et d'outils d'exploitation avancés, combinée au déploiement d'architectures défensives robustes (SIEM, IDS/IPS). Pilote actuellement des initiatives de sécurité au sein d'une startup dynamique et dirige le département technique d'un club universitaire de 70 étudiants. Un talent confirmé alliant ingénierie système, développement d'applications full-stack et intégration avancée d'IA.</p>
+    </section>
+
+    <section>
+        <h2>EXPÉRIENCE</h2>
+        
+        <div>
+            <div class="flex-row">
+                <div class="title-group"><span class="job-title">Spécialiste en Cybersécurité</span> | <span class="company-name">Yanova Solution</span></div>
+                <div class="date">Oct 2025 – Présent</div>
+            </div>
+            <ul>
+                <li>Pilotage d'initiatives techniques en cybersécurité et de tests d'intrusion (pentest), dans le respect strict des spécifications de sécurité de l'entreprise.</li>
+                <li>Conception et gestion d'infrastructures sécurisées basées sur du matériel Raspberry Pi, des serveurs d'entreprise et des workflows d'IA avancés.</li>
+            </ul>
+        </div>
+
+        <div>
+            <div class="flex-row">
+                <div class="title-group"><span class="job-title">Chef du Département Technique</span> | <span class="company-name">Club Cywork</span></div>
+                <div class="date">Aoû 2024 – Fév 2025</div>
+            </div>
+            <ul>
+                <li>Direction et mentorat d'un département de plus de 70 étudiants répartis en trois divisions spécialisées : Programmation, Cybersécurité et Hardware (Systèmes Embarqués).</li>
+                <li>Architecture et déploiement de l'infrastructure d'une entreprise virtuelle de A à Z, incluant l'implémentation complète d'Active Directory et l'administration détaillée des serveurs.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>COMPÉTENCES TECHNIQUES & PROJETS</h2>
+        
+        <div class="category-title">Red Team (Sécurité Offensive)</div>
+        <ul>
+            <li><strong>Malwares & Exploits Personnalisés :</strong> Développement de malwares multicouches en Rust, de botnets en C++/Python, de simulations de ransomwares et de scripts personnalisés en Python/Go.</li>
+            <li><strong>Exploitation Avancée :</strong> Développement de serveurs C2 multithreads TCP/UDP, d'exploits par injection directe de code et d'outils d'élévation de privilèges par jetons Windows.</li>
+            <li><strong>Sécurité Web & Applicative :</strong> Création de testeurs de vulnérabilités SQLi/XSS pilotés par l'IA et de simulations Man-in-the-Browser (MitB).</li>
+            <li><strong>OSINT & Reconnaissance :</strong> Programmation de bots Telegram/IRC de collecte de renseignements et d'utilitaires personnalisés de web scraping.</li>
+        </ul>
+
+        <div class="category-title">Blue Team (Sécurité Défensive)</div>
+        <ul>
+            <li><strong>Détection des Menaces & SIEM :</strong> Configuration de la stack ELK pour une analyse exhaustive des logs et création de règles YARA personnalisées pour l'identification des menaces.</li>
+            <li><strong>Leurres & NIDS :</strong> Conception de honeypots exploitant de fausses vulnérabilités 0-day. Implémentation d'un NIDS Zero-Trust avec Zeek/Suricata.</li>
+            <li><strong>Réponse aux Incidents :</strong> Exécution de simulations SOC virtuelles (Niveaux 1, 2 et 3) utilisant Remnux et FlareVM pour l'analyse rigoureuse de malwares.</li>
+            <li><strong>Environnements Vulnérables :</strong> Déploiement du Game of Active Directory (GOAD) pour analyser les vecteurs d'attaque contre les domaines d'entreprise.</li>
+        </ul>
+
+        <div class="category-title">Ingénierie Système & Full-Stack</div>
+        <ul>
+            <li><strong>Développement Logiciel :</strong> Création d'applications web/mobiles haute performance utilisant Next.js, Node.js, Express, Django, Flask, React, Flutter et Tauri.</li>
+            <li><strong>Architecture de Données & IA :</strong> Maîtrise de Firebase, MongoDB et Supabase. Intégration de bases de données vectorielles, de couches LoRA, du RAG et d'agents IA.</li>
+            <li><strong>Ingénierie Système :</strong> Création d'une distribution Linux personnalisée from scratch et développement de simulations cryptographiques (générateurs de payloads ROT13, RSA).</li>
+            <li><strong>Hardware & Systèmes Embarqués :</strong> Ingénierie du projet de gant connecté "Glove AGF" (Jan – Mai 2024) à l'Université de Tlemcen, fusionnant des capteurs physiques avec un modèle avancé de Deep Learning (<a href="#">Voir le Projet</a>).</li>
+        </ul>
+
+        <div>
+            <div class="flex-row" style="margin-top: 0.75rem;">
+                <div class="title-group"><span class="job-title">FlexTouch 360°</span> — <span class="company-name">Backend de Plateforme Web 3D Interactive</span></div>
+                <div class="date">2026</div>
+            </div>
+            <ul>
+                <li>Développement et déploiement de l'ensemble de l'infrastructure backend de la plateforme de manière indépendante.</li>
+            </ul>
+        </div>
+
+        <div>
+            <div class="flex-row">
+                <div class="title-group"><span class="job-title">Hackathon Hackfest</span> — <span class="company-name">Club CyWork</span></div>
+                <div class="date">Avr 2024</div>
+            </div>
+            <ul>
+                <li>Participation à un hackathon de 3 jours impliquant Arduino, Développement Web et une simulation CTF à 10 flags.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>FORMATION</h2>
+        
+        <div>
+            <div class="flex-row">
+                <div class="job-title">Diplôme d'Ingénieur, Administration Systèmes et Réseaux</div>
+                <div class="date">Sep 2025 – Juin 2028</div>
+            </div>
+            <div class="university">Université de Tlemcen</div>
+        </div>
+
+        <div>
+            <div class="flex-row">
+                <div class="job-title">Diplôme d'Ingénieur, Informatique et Sciences de l'Information</div>
+                <div class="date">Sep 2024 – Juin 2025</div>
+            </div>
+            <div class="university">Université de Tlemcen</div>
+        </div>
+
+        <div>
+            <div class="flex-row">
+                <div class="job-title">Diplôme d'Ingénieur, Intelligence Artificielle</div>
+                <div class="date">Jan 2022 – Juin 2024</div>
+            </div>
+            <div class="university">Université de Tlemcen</div>
+        </div>
+
+        <div>
+            <div class="flex-row">
+                <div class="job-title">Baccalauréat</div>
+                <div class="date">2022</div>
+            </div>
+            <div class="university">Algérie</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>CERTIFICATIONS</h2>
+        <ul>
+            <li>Formation approfondie sur AWS, Cisco CCNA, CompTIA et CEH.</li>
+            <li>Compétiteur actif en CTF sur HackTheBox et TryHackMe (lecture et création de writeups).</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>LANGUES</h2>
+        <ul>
+            <li><strong>Arabe :</strong> Langue maternelle &nbsp;|&nbsp; <strong>Anglais :</strong> Professionnel &nbsp;|&nbsp; <strong>Français :</strong> Élémentaire</li>
+        </ul>
+    </section>
+</div>
+
+</body>
+</html>
